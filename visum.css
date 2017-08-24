@@ -309,3 +309,10 @@ div.box {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
+@media screen and (max-width: 680px) {
+  div.box {
+    padding: 5px;
+  }
+}
