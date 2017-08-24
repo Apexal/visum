@@ -92,7 +92,7 @@ nav ul li.nav-dropdown-icon {
   }
   
   nav ul.nav-top.expanded li:first-child a {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid #373737;
   }
 
   nav ul.nav-top.expanded li.nav-dropdown-icon { 
