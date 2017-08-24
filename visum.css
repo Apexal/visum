@@ -264,7 +264,6 @@ header {
   line-height: 50px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 40px;
   border-bottom: 1px solid #eee;
 }
 
@@ -276,6 +275,10 @@ h5,
 h6 {
   margin-bottom: 10px;
   display: inline-block;
+}
+
+header h1 {
+  margin-top: 40px;
 }
 
 header small {
@@ -294,4 +297,15 @@ header h2+small {
   color: #515151;
   margin-left: 10px;
   font-size: 1em;
+}
+
+/* BOXES */
+
+div.box {
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, .1);
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
