@@ -316,3 +316,18 @@ div.box {
     padding: 5px;
   }
 }
+
+/* BUTTONS */
+
+button.btn {
+  font-size: 14px;
+  font-weight: 200;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #222;
+  border: none;
+}
+
+button.btn:active {
+  background-color: #171717;
+}
