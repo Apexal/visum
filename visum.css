@@ -213,6 +213,7 @@ nav ul li.nav-dropdown-icon {
 @media screen and (max-width: 680px) {
   [class*="col-"] {
     width: 100%;
+    margin: 0;
   }
 }
 
@@ -223,7 +224,7 @@ nav ul li.nav-dropdown-icon {
 }
 
 form.form input.form-field[type="text"] {
-  min-width: 300px;
+  width: 300px;
   font-size: 15px;
   padding: 5px;
 }
