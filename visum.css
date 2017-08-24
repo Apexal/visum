@@ -30,7 +30,7 @@ nav {
 }
 
 nav ul {
-  background-color: rgb(255, 44, 45);
+  background-color: #222;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -49,7 +49,7 @@ nav ul.nav-top li a {
   display: block;
   text-decoration: none;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 14px;
   text-align: center;
 }
@@ -60,7 +60,7 @@ nav ul.nav-top li:first-child a {
 }
 
 nav ul.nav-top li a:hover {
-  background-color: rgb(251, 119, 119);
+  background-color: black;
 }
 
 
@@ -112,8 +112,6 @@ nav ul li.nav-dropdown-icon {
 .container {
   width: 100%;
   margin: 0;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 /* ROWS */
@@ -148,4 +146,14 @@ nav ul li.nav-dropdown-icon {
 
 [class*="col-"] {
   padding: 15px;
+}
+
+/* FORM CONTROLS */
+
+.form { width: 100%; }
+
+form.form input.form-field[type="text"] {
+  min-width: 200px;
+  font-size: 15px;
+  padding: 5px;
 }
