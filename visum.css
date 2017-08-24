@@ -198,11 +198,17 @@ nav ul li.nav-dropdown-icon {
 }
 
 form.form input.form-field[type="text"] {
-  min-width: 200px;
+  min-width: 300px;
   font-size: 15px;
   padding: 5px;
 }
 
+/* Form on mobile */
+@media screen and (max-width: 680px) {
+  form.form input.form-field[type="text"] {
+    width: 100%;
+  }
+}
 
 /* HERO */
 
