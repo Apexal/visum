@@ -9,6 +9,8 @@ footer {
 body {
   line-height: 1;
   margin: 0;
+
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 
@@ -31,7 +33,7 @@ nav ul.nav-top li {
   float: left;
 }
 
-nav ul.nav-top li.nav-item-right {
+nav ul li.nav-item-right {
   float: right;
 }
 
@@ -42,6 +44,11 @@ nav ul.nav-top li a {
   font-size: 1.3em;
   text-transform: uppercase;
   padding: 14px;
+  text-align: center;
+}
+
+nav ul.nav-top li:first-child a {
+  font-weight: bold;
 }
 
 nav ul.nav-top li a:hover {
@@ -59,10 +66,32 @@ nav ul li.nav-dropdown-icon {
 /* Show on mobile */
 
 @media screen and (max-width: 680px) {
-  nav ul.nav-top li:not(:first-child):not(.nav-dropdown-icon) {
+  nav ul.nav-top:not(.expanded) li:not(:first-child):not(.nav-dropdown-icon) {
     display: none;
   }
+
   nav ul li.nav-dropdown-icon {
-    display: initial;
+    display: block;
+  }
+
+  
+  nav ul.expanded {
+    position: relative;
+  }
+  
+  nav ul.nav-top.expanded li.nav-dropdown-icon { 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  nav ul.expanded li {
+    display: inline;
+    float: none;
+  }
+
+  nav ul.expanded li a {
+    display: block;
+    text-align: left;
   }
 }
