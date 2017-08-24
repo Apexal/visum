@@ -82,11 +82,14 @@ nav ul li.nav-dropdown-icon {
     display: block;
   }
 
-  
   nav ul.expanded {
     position: relative;
   }
   
+  nav ul.nav-top.expanded li:first-child a {
+    border-bottom: 2px solid white;
+  }
+
   nav ul.nav-top.expanded li.nav-dropdown-icon { 
     position: absolute;
     top: 0;
