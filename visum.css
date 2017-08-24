@@ -4,7 +4,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -17,7 +19,6 @@ footer {
 body {
   line-height: 1;
   margin: 0;
-
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -82,35 +83,30 @@ nav ul li.nav-dropdown-icon {
   nav ul.nav-top:not(.expanded) li:not(:first-child):not(.nav-dropdown-icon) {
     display: none;
   }
-
   nav ul li.nav-dropdown-icon {
     display: block;
   }
-
   nav ul.expanded {
     position: relative;
   }
-  
   nav ul.nav-top.expanded li:first-child a {
     border-bottom: 3px solid #373737;
   }
-
-  nav ul.nav-top.expanded li.nav-dropdown-icon { 
+  nav ul.nav-top.expanded li.nav-dropdown-icon {
     position: absolute;
     top: 0;
     right: 0;
   }
-
   nav ul.expanded li {
     display: inline;
     float: none;
   }
-
   nav ul.expanded li a {
     display: block;
     text-align: left;
   }
 }
+
 
 /* CONTAINER */
 
@@ -122,6 +118,7 @@ nav ul li.nav-dropdown-icon {
 .container.limited {
   max-width: 1000px;
 }
+
 
 /* ROWS */
 
@@ -138,28 +135,67 @@ nav ul li.nav-dropdown-icon {
   content: "";
 }
 
+
 /* COLUMNS */
 
-.col-1 { width: 8.33%; }
-.col-2 { width: 16.66%; }
-.col-3 { width: 25%; }
-.col-4 { width: 33.33%; }
-.col-5 { width: 41.66%; }
-.col-6 { width: 50%; }
-.col-7 { width: 58.33%; }
-.col-8 { width: 66.66%; }
-.col-9 { width: 75%; }
-.col-10 { width: 83.33%; }
-.col-11 { width: 91.66%; }
-.col-12 { width: 100%; }
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
 
 [class*="col-"] {
   padding: 15px;
 }
 
+
 /* FORM CONTROLS */
 
-.form { width: 100%; }
+.form {
+  width: 100%;
+}
 
 form.form input.form-field[type="text"] {
   min-width: 200px;
@@ -167,19 +203,24 @@ form.form input.form-field[type="text"] {
   padding: 5px;
 }
 
+
 /* HERO */
 
 .hero {
   width: 100%;
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#37AAFF, #37AAFF); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(blue, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(blue, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#1998F5, #7EC6FF); /* Standard syntax */
+  background: #1998F5;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1998F5, #7EC6FF);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1998F5, #7EC6FF);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1998F5, #7EC6FF);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1998F5, #7EC6FF);
+  /* Standard syntax */
   padding: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
-
   color: white;
   padding-left: 15%;
   padding-right: 15%;
