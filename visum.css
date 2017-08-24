@@ -20,6 +20,7 @@ body {
   line-height: 1;
   margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #222;
 }
 
 
@@ -234,4 +235,39 @@ form.form input.form-field[type="text"] {
 
 .hero h1 {
   font-size: 3em;
+}
+
+/* HEADERS */
+
+header {
+  width: 100%;
+  line-height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+header h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+
+header small {
+  color: #515151;
+  margin-left: 10px;
+  font-size: 0.7em;
+}
+
+header h1 + small {
+  color: #515151;
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+
+header h2 + small {
+  color: #515151;
+  margin-left: 10px;
+  font-size: 1em;
 }
