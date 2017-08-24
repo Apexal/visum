@@ -355,3 +355,10 @@ article p {
 p {
   line-height: 1.2;
 }
+
+/* IMAGES */
+
+img.responsive {
+  width: 100%;
+  max-width: 800px;
+}
