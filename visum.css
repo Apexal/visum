@@ -11,3 +11,58 @@ body {
   margin: 0;
 }
 
+
+/* NAV BAR */
+
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  background-color: rgb(255, 44, 45);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.nav-top li {
+  list-style: none;
+  float: left;
+}
+
+nav ul.nav-top li.nav-item-right {
+  float: right;
+}
+
+nav ul.nav-top li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 14px;
+}
+
+nav ul.nav-top li a:hover {
+  background-color: rgb(251, 119, 119);
+}
+
+
+/* Hide trigram on non mobile */
+
+nav ul li.nav-dropdown-icon {
+  display: none;
+}
+
+
+/* Show on mobile */
+
+@media screen and (max-width: 680px) {
+  nav ul.nav-top li:not(:first-child):not(.nav-dropdown-icon) {
+    display: none;
+  }
+  nav ul li.nav-dropdown-icon {
+    display: initial;
+  }
+}
