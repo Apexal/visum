@@ -368,3 +368,37 @@ img.responsive {
   width: 100%;
   max-width: 800px;
 }
+
+/* FOOTERS */
+
+footer.footer-bottom {
+  margin-top: 40px;
+  background-color: #666;
+  width: 100%;
+  min-height: 200px;
+  padding: 30px 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer.footer-bottom h1 {
+  font-size: 1.7em;
+}
+
+footer.footer-bottom ul {
+  padding: 0;
+  
+}
+
+footer.footer-bottom ul li {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+
+footer.footer-bottom ul li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
