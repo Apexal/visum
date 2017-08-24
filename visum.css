@@ -172,6 +172,8 @@ form.form input.form-field[type="text"] {
   padding-bottom: 50px;
 
   color: white;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .hero h1 {
