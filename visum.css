@@ -324,7 +324,7 @@ div.box {
 
 button.btn {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: bold;
   padding: 10px 20px;
   color: #fff;
   background-color: #222;
@@ -333,4 +333,20 @@ button.btn {
 
 button.btn:active {
   background-color: #171717;
+}
+
+/* ARTICLES */
+
+article {
+  margin: 0;
+  padding: 0;
+}
+
+article p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.2;
 }
