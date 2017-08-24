@@ -23,6 +23,22 @@ body {
   color: #222;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
 
 /* NAV BAR */
 
@@ -204,12 +220,15 @@ form.form input.form-field[type="text"] {
   padding: 5px;
 }
 
+
 /* Form on mobile */
+
 @media screen and (max-width: 680px) {
   form.form input.form-field[type="text"] {
     width: 100%;
   }
 }
+
 
 /* HERO */
 
@@ -237,6 +256,7 @@ form.form input.form-field[type="text"] {
   font-size: 3em;
 }
 
+
 /* HEADERS */
 
 header {
@@ -248,11 +268,15 @@ header {
   border-bottom: 1px solid #eee;
 }
 
-header h1, h2, h3, h4, h5, h6 {
+header h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 10px;
   display: inline-block;
 }
-
 
 header small {
   color: #515151;
@@ -260,13 +284,13 @@ header small {
   font-size: 0.7em;
 }
 
-header h1 + small {
+header h1+small {
   color: #515151;
   margin-left: 10px;
   font-size: 1.3em;
 }
 
-header h2 + small {
+header h2+small {
   color: #515151;
   margin-left: 10px;
   font-size: 1em;
